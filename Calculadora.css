@@ -53,13 +53,10 @@ button:active{
     color: black;
     font-weight: bold;
 }
-.zero button{
-    display: grid;
-    grid-template-columns: repeat(5, 3fr);
-    grid-gap: 5px;
-    background-color: aqua;
+.zero {
+    grid-column: 1 / span 2;
 }
 
 .naranja{
-     
+     background-color: orange;
 }
