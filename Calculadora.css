@@ -1,0 +1,65 @@
+*{
+    font-family: "SF UI Display", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+
+}
+body{
+    background-color: black;
+
+}
+.calculator{
+    width: 300px;
+    margin: 50px auto;
+    background-color: black;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(73, 72, 139, 0.1);
+}
+
+.screen{
+    height: 80px;
+    padding: 10px;
+    font-size: 70px;
+    text-align: right;
+    background-color: black;
+    color: white; 
+    font-weight: 2;
+  
+}
+
+.teclado{
+    display: grid;
+    grid-template-columns: repeat(4, 3fr);
+    grid-gap: 15px;
+}
+
+button{
+    height: 60px;
+    font-size: 30px;
+    border: none;
+    background-color: #333333;
+    cursor: pointer;
+    border-radius: 100px;
+    color: white;
+}
+
+button:hover{
+    background-color: #ccc;
+}
+
+button:active{
+    background-color: #b3b3b3;
+}
+.gris{
+    background: gray;
+    color: black;
+    font-weight: bold;
+}
+.zero button{
+    display: grid;
+    grid-template-columns: repeat(5, 3fr);
+    grid-gap: 5px;
+    background-color: aqua;
+}
+
+.naranja{
+     
+}

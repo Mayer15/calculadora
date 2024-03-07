@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="./Calculadora.css">
+</head>
+
+<body>
+    <div class="calculator">
+        <div id="screen" class="screen"></div>
+        <div class="teclado">
+            <button class="gris" onclick="clearScreen()">C</button>
+            <button class="gris" onclick="('+/-')">+/-</button>
+            <button class="gris" onclick="('%')">%</button>
+            <button onclick="addToScreen('/')">÷</button>
+            <button onclick="addToScreen('7')">7</button>
+            <button onclick="addToScreen('8')">8</button>
+            <button onclick="addToScreen('9')">9</button>
+            <button onclick="addToScreen('*')">×</button>
+            <button onclick="addToScreen('4')">4</button>
+            <button onclick="addToScreen('5')">5</button>
+            <button onclick="addToScreen('6')">6</button>
+            <button onclick="addToScreen('-')">-</button>
+            <button onclick="addToScreen('1')">1</button>
+            <button onclick="addToScreen('2')">2</button>
+            <button onclick="addToScreen('3')">3</button>
+            <button onclick="addToScreen('+')">+</button>
+            <button onclick="addToScreen('0')">0</button>
+            <button onclick="addToScreen('.')">.</button>
+            <button onclick="calculate()">=</button>
+        </div>
+        <div class="zero">
+            <button onclick="addToScreen('0')">0</button>
+        </div>
+    </div>
+    <script src="./indexCalculadora.js"></script>
+</body>
+
+</html>
